@@ -17,7 +17,7 @@
 
 .logoLink>img{
     width: 20%;
-    margin-left: 100px;
+    margin-left: 90px;
     
 }
 .navBar>ul{
@@ -26,6 +26,7 @@ flex-direction: row;
 justify-content:space-around ;
 background-color: #301934;
 margin-right: 10%;
+
    
 
 
@@ -34,9 +35,10 @@ margin-right: 10%;
 .navBar>ul>li{
     
     list-style: none;
-    margin-right: 5%;
+    margin-right: 20%;
     margin-top: 70px;
-    margin-right: 10%;
+
+   
    
 
 
@@ -46,6 +48,8 @@ margin-right: 10%;
     font-size: 20px;
     font-family: 'Quicksand', sans-serif;
     color: rgb(248, 246, 246);
+   
+
   
 
 }
@@ -55,6 +59,7 @@ a :hover{
 }
 header{
     background-color: #301934;
+    height: 60px;
     
 }
 .navBar>ul>li>a:hover{
@@ -94,3 +99,17 @@ font-weight: bold;
     position:absolute;
     z-index: 1;
 }
+.logoSocial{
+    width: 2%;
+    background-color: transparent;
+  }
+  .mt-3{
+    padding: 2%;
+  }
+  .mb-4>img{
+    width: 70%;
+  }
+  #contactes{
+    margin-top: 15%;
+  }
+
