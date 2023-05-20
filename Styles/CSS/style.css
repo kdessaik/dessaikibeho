@@ -1,10 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap'); 
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
 
 *{
     margin: 0px;
     padding: 0px;
+    
 }
+body {
+    font-family:'Roboto';
+   
+  
+  }
 .navBar{
   
     display: flex;
@@ -17,7 +24,7 @@
 
 .logoLink>img{
     width: 20%;
-    margin-left: 90px;
+    margin-left: 70px;
     
 }
 .navBar>ul{
@@ -25,7 +32,7 @@ display: flex;
 flex-direction: row;
 justify-content:space-around ;
 background-color: #301934;
-margin-right: 5%;
+margin-right: 10%;
 
    
 
@@ -45,7 +52,7 @@ margin-right: 5%;
 }
 .navBar>ul>li>a{
     text-decoration: none;
-    font-size: 20px;
+    font-size: 22px;
     font-family: 'Quicksand', sans-serif;
     color: rgb(248, 246, 246);
    
@@ -59,7 +66,7 @@ a :hover{
 }
 header{
     background-color: #301934;
-    height: 60px;
+    height: -50px;
     
 }
 .navBar>ul>li>a:hover{
@@ -112,3 +119,109 @@ font-weight: bold;
   #contactes{
     margin-top: 15%;
   }
+  main{
+   
+    padding-right: 2%;
+    padding-left: 7%;
+  }
+  .section1{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    
+ 
+  }
+
+  .section1>.div1{
+    margin-top: 200px;
+    margin-left: 3%;
+   
+
+  }
+  .section1>.div1>p{
+    font-size: 25px;
+
+  }
+  .section1>.div2{
+   margin-right: -10%;
+   margin-top: 100px;
+
+   
+    
+  }
+  .section1>.div2>img{
+    width: 100%;
+    
+  }
+  
+
+
+.animations {
+  color: #000000;
+  font-size: 1.26rem;
+  font-weight: bold;
+
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.animations>p{
+    font-size: 50px;
+}
+.animations>section{
+    margin-left: 200px;
+}
+
+
+.animation {
+    width: 110%;
+  height:90px;
+  overflow:hidden;
+ 
+ 
+}
+
+.animation > div > div {
+  padding: 0.25rem 1.75rem;
+  height:2.81rem;
+  margin-bottom: 2.81rem;
+  display:inline-block;
+  color: white;
+  
+ 
+ 
+}
+
+.animation div:first-child {
+  animation: text-animation 8s infinite;
+}
+
+.first div {
+  background-color:#301934;
+ 
+  border-radius: 25px;
+}
+.second div {
+  background-color:#301934;
+  border-radius: 25px;
+}
+.third div {
+  background-color:#301934;
+  border-radius: 25px;
+}
+
+@keyframes text-animation {
+  0% {margin-top: 1;}
+  10% {margin-top: 1;}
+  20% {margin-top: -5.62rem;}
+  30% {margin-top: -5.62rem;}
+  40% {margin-top: -12.24rem;}
+  60% {margin-top: -12.24rem;}
+  70% {margin-top: -5.62rem;}
+  80% {margin-top: -5.62rem;}
+  90% {margin-top: 0;}
+  100% {margin-top: 0;}
+}
+
