@@ -1,0 +1,73 @@
+.MainContact{
+    padding-top: 30px;
+}
+
+body
+{
+    background-color:rgb(171, 171, 171);
+    font-family: sans-serif;
+}
+.contact-box
+{
+    width: 500px;
+    background-color: blueviolet;
+    box-shadow: 20px;
+   
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+form
+{
+    margin: 35px;
+}
+.input-field
+{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #777;
+    border-radius: 15px;
+    outline: none;
+}
+.textarea-field
+{
+    width: 400px;
+    height: 150px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #777;
+    outline: none;
+    font-weight: bold;
+}
+.btn1
+
+{
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    margin-top: 18px;
+    padding: 10px;
+    background-color: #301934;;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+.contact{
+    text-align: center;
+    padding-top: 200px;
+}
+.input-field{
+    margin: 2%;
+}
+.btn1:hover{
+    background-color: black;
+    color: white;
+
+}
+.box{
+    margin-top:-200px;
+}
