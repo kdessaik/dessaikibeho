@@ -11526,3 +11526,7 @@ hr.divider {
 .col-sm-6>a>img{
     width: 200%;
 }
+.mt-3{
+  display: flex;
+  flex-direction: row;
+}

@@ -134,5 +134,29 @@
  .content>.x1>img,.content>.x2>img,.content>.x3>img,.content>.x4>img{
 width: 100%;
  }
- 
+ .MainAbout{
+  margin-bottom: 200px;
+ }
+
+ .x5{
+  width: 20%;
+ }
+ .x4>img{
+  width: 100px;
+ }
+ .content>.x2>img {
+  margin-left: 50px;
+width: 14vw;
+ }
+ .content>.x4>img {
+  width: 20%;
+  margin-left: 30px;
+}
+.content>.x5>img {
+  width: 14vw;
+  margin-left: 20px;
+}
+.content{
+  cursor: all-scroll;
+}
  
