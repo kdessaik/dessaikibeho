@@ -338,12 +338,14 @@ th{
 *{
     margin: 0px;
     padding: 0px;
+  
  
     
 }
 body {
     font-family:'Roboto';
     width: 100vw;
+    max-width: 100%;
 
   }
 .navBar{
@@ -712,5 +714,19 @@ th{
 .border-bottom>div>a>img{
   width: 10%;
 }
+
+.section1>.div2>img {
+  width: 170%;
+  margin-left: 50%;
+}
+section.animation {
+  margin-left: 140px;
+  
+}
+section.animation{
+  margin-left: 140px;
+  margin-top:-60px
+}
+
 
 }
