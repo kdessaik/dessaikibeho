@@ -333,6 +333,7 @@ th{
   padding-bottom: -10%;
 }
 
+
 @media screen and (max-width:700px) {
  
 *{
@@ -727,6 +728,24 @@ section.animation{
   margin-left: 140px;
   margin-top:-60px
 }
-
+.section2{
+  padding-top:50px
+}
+.sticky>.navBar>ul{
+  padding-left: 100px;
+}
+.sticky>.navBar>ul>li{
+  padding-right: 5%;
+}
+.sticky>.logoLink>img {
+  width: 50%;
+  margin-left: -10px;
+}
+.sticky>.navBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #301934;
+}
 
 }
