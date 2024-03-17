@@ -71,3 +71,13 @@ form
 .box{
     margin-top:-200px;
 }
+#container {
+
+    margin: 0 auto 0px auto;
+    width: 100%;
+}
+form.wufoo {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
