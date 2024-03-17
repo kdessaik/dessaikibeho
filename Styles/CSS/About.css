@@ -10,7 +10,7 @@
     width: 30%;
     border-radius: 25px;
     margin-right: 5%;
-    justify-content: s;
+    
 }
 .sectionAbout>.div1>img:hover{
     width: 30.5%;
@@ -19,9 +19,9 @@
 
 .sectionAbout>.div1{
     background-color: #301934;
-    margin-left: -100px;
-    width: 1420px;
-    height: 350px;
+    margin-left: 0px;
+    width: 100%;
+    height: 270px;
     padding: 1%;
 }
 .sectionAbout>.div2{
@@ -33,3 +33,51 @@
     
 
 }
+
+
+
+@media only screen and  (min-width: 10px) and (max-width: 700px){
+    body{
+        width: 100%;
+    }
+
+    .sectionAbout>.div1 {
+        background-color: #301934;
+        margin-left: 0%;
+        width: 100%;
+        height: 215px;
+        padding: 1%;
+    }
+    
+    
+    .sectionAbout>.div1>img{
+        width: 100%;
+        border-radius: 5px;
+        margin-right: 5%;
+        
+    }
+    
+    
+    .MainAbout{
+        padding-top: 85px;
+        
+    }
+  
+    .div2>p{
+        font-size: 1rem;
+
+    }
+    #div-about>p{
+        font-size: 15px;
+
+    }
+   
+    
+    
+    
+
+}
+
+
+
+
