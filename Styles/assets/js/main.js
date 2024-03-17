@@ -5,6 +5,11 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+
+
+
+
+
 (function() {
   "use strict";
 
@@ -162,6 +167,17 @@
   /**
    * Porfolio isotope and filter
    */
+
+  document.getElementById('icon-phone').addEventListener('click',function(){
+    document.getElementById('ulPhone1').style.display="inline";
+    document.getElementById('icon-phone').style.display='none'
+  
+  })
+
+  document.getElementById('cancel').addEventListener('click',function(){
+    document.getElementById('ulPhone1').style.display="none";
+    document.getElementById('icon-phone').style.display='inline'
+  })
   window.addEventListener('load', () => {
     let portfolioContainer = select('.portfolio-container');
     if (portfolioContainer) {
@@ -260,3 +276,4 @@
   new PureCounter();
 
 })()
+

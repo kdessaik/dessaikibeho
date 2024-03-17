@@ -14,6 +14,8 @@ body {
    
   
   }
+
+  @media only screen and (max-width: 2000px) and (min-width: 701px){
 .navBar{
   
     display: flex;
@@ -331,18 +333,396 @@ th{
 
   padding-top: 0%;
   padding-bottom: -10%;
+  width: 100wh;
+}
+.icon-phone{
+  display: none;
+ 
+ 
+
+}
+
+.section2 {
+  padding-top: 0%;
+  width: 100;
+}
+.ulPhone1{
+  display: none;
+}
 }
 
 
-@media screen and (max-width:700px) {
+
+
+@media only screen and  (min-width: 10px) and (max-width: 700px){
  
 *{
     margin: 0px;
     padding: 0px;
+  }
+
+
+
+.navBar{
   
- 
-    
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #301934;
+  
+
 }
+
+.logoLink>img{
+  width: 20%;
+  margin-left: 70px;
+  
+}
+.navBar>ul{
+display: flex;
+flex-direction: row;
+justify-content:space-around ;
+background-color: #301934;
+margin-right: 10%;
+
+ 
+
+
+
+}
+.navBar>ul>li{
+  
+  list-style: none;
+  margin-right: 15%;
+  margin-top: 70px;
+
+ 
+ 
+
+
+}
+.navBar>ul>li>a{
+  text-decoration: none;
+  font-size: 22px;
+  font-family: 'Quicksand', sans-serif;
+  color: rgb(248, 246, 246);
+ 
+
+
+
+}
+a :hover{
+
+  color: wheat;
+}
+header{
+  background-color: #301934;
+  height: -50px;
+  
+}
+.navBar>ul>li>a:hover{
+  color: rgb(255, 252, 246);
+font-weight: bold;
+font-weight: bold;
+}
+.sticky>.navBar{
+  position: fixed;
+  left: -7%;
+  padding: 0% 15%;
+  top: 0%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-left: 7%;
+  background-color: #301934;
+}
+.sticky>.navBar>ul>li{
+  
+  list-style: none;
+  margin-right: 5%;
+  margin-top: 10px;
+  margin-right: 10%;
+}
+.sticky>.navBar>ul>li>a{
+  color: white;
+
+  
+}
+.sticky>.navBar>ul>li>a:hover{
+  color:white;
+}
+
+
+
+.navBar{
+  position:absolute;
+  z-index: 1;
+}
+.logoSocial{
+  width: 2%;
+  background-color: transparent;
+}
+.ulPhone1{
+  position: relative;
+  top: 15px;
+
+  right: 5px;
+
+
+ 
+  
+  
+}
+.ulPhone1>ul>li{
+  border: 1px solid rgb(94, 2, 94);
+  padding:2px 5px;
+  background-color: rgb(255, 255, 255);
+
+
+}
+.ulPhone1>ul>li>a{
+  color: #570564;
+  font-weight: bold;
+  
+}
+
+.ulPhone1{
+  display: none;
+}
+#cancel>img{
+  width: 30%;
+  position: relative;
+  right: 45px;
+ 
+}
+
+.mt-3{
+  padding: 2%;
+}
+.mb-4>img{
+  width: 70%;
+}
+#contactes{
+  margin-top: 15%;
+}
+main{
+ 
+  padding-right: 2%;
+  padding-left: 7%;
+}
+.section1{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+
+  
+
+}
+
+.section1>.div1{
+  margin-top: 250px;
+  margin-left: 3%;
+ 
+
+}
+.section1>.div1>p{
+  font-size: 25px;
+
+}
+.section1>.div2{
+  width: 90%;
+ margin-right: 3%;
+ margin-top: 150px;
+
+
+ 
+  
+}
+.section1>.div2>img{
+  width: 140%;
+  
+}
+
+
+
+.animations {
+
+font-size: 1.26rem;
+font-weight: bold;
+
+
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.animations>p{
+  font-size: 50px;
+  color: #301934;
+}
+.animations>p>span{
+  color: black; 
+}
+.animations>section{
+  margin-left: 200px;
+}
+
+
+.animation {
+  width: 110%;
+height:90px;
+overflow:hidden;
+
+
+}
+
+.animation > div > div {
+padding: 0.25rem 0.75rem;
+height:2.81rem;
+margin-bottom: 1.0rem;
+display:inline-block;
+
+
+
+
+
+
+}
+
+
+.animation div:first-child {
+animation: text-animation 8s infinite;
+}
+
+.first div {
+
+background-color:rgb(206, 206, 206);
+color: black;
+
+border-radius: 25px;
+}
+.second div {
+background-color:#301934;
+border-radius: 25px;
+color: white;
+
+}
+.third div {
+background-color:black;
+color: white;
+border-radius: 25px;
+}
+
+@keyframes text-animation {
+0% {margin-top: 1;}
+10% {margin-top: 1;}
+20% {margin-top: -5.62rem;}
+30% {margin-top: -5.62rem;}
+40% {margin-top: -7.24rem;}
+60% {margin-top: -7.24rem;}
+70% {margin-top: -5.62rem;}
+80% {margin-top: -5.62rem;}
+90% {margin-top: 0rem;}
+100% {margin-top: 0rem;}
+}
+.animations>section {
+margin-left: 20px;
+}
+.section2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #301934;
+  height: 500px;
+  width: 250vh;
+  position: relative;
+  right: 100px;
+  color: white;
+
+  margin-top: 0.1%;
+  padding: 2%;
+  padding-top: 7%;
+}
+.section2>.div1{
+  width: 90%;
+  margin-left: 7%;
+  margin-right: 2%;
+  margin-top: 5%;
+
+
+}
+.section2>.div1>p{
+font-family:'Roboto' ; 
+font-size: 20px;
+}
+.section2>.div2{
+  margin-left: 10%;
+
+}
+.section2>.div2>img{
+  width: 50%;
+}
+
+.section2 {
+  padding-top: 0%;
+  width: 100;
+}
+.btn-more{
+  font-family: 'Roboto';
+  background-color: white;
+  color:#301934;
+  font-weight: bold;
+  padding: 2%;
+  font-size: 20px;
+  border-radius: 15px;
+
+}
+.btn-more:hover{
+  background-color:#27152b;
+  color: white;
+  text-decoration: none;
+}
+table{
+border: 5px solid purple ;
+
+}
+td{
+border: 1px solid purple ;
+padding: 1%;
+}
+th{ 
+border: 5px solid purple ;
+padding: 1%;
+width: 25vw;
+font-weight: bold;
+}
+.section1>.div2 {
+width: 70%;
+margin-right: 15%;
+margin-top: 50px;
+margin-left: -250px;
+}
+.section1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: -2%;
+}
+.section2>.div2>img {
+width: 50%;
+margin-top: 120px;
+}
+.section1>.div1 {
+margin-top: 100px;
+margin-left: 3%;
+}
+.section2 {
+
+padding-top: 0%;
+padding-bottom: -10%;
+}
+
+
 body {
     font-family:'Roboto';
     width: 100vw;
@@ -496,11 +876,27 @@ font-weight: bold;
     color:white;
 }
 
-
+.sticky>.navBar{
+  padding-bottom: 5%;
+}
 .navBar{
     position:absolute;
     z-index: 1;
+    
 }
+.icon-phone{
+  z-index: 1;
+  margin-top: 5%;
+  text-align: center;
+
+ 
+}
+.navBar>.ulPhone{
+  display: none;
+}
+
+
+
 .logoSocial{
     width: 2%;
     background-color: transparent;
@@ -528,6 +924,7 @@ font-weight: bold;
     
  
   }
+
 
   .section1>.div1{
     margin-top: 250px;
@@ -677,7 +1074,7 @@ padding: 2%;
 
 }
 .section2>.div2>img{
-    width: 100vw;
+    width: 100%;
     margin-top: 10%;
     display: none;
     
@@ -739,7 +1136,7 @@ section.animation{
 }
 .sticky>.logoLink>img {
   width: 50%;
-  margin-left: -10px;
+  margin-left: 10px;
 }
 .sticky>.navBar {
   display: flex;
@@ -747,5 +1144,40 @@ section.animation{
   justify-content: space-evenly;
   background-color: #301934;
 }
+#tableContent{
+width: 90%;
+}
+
+#table{
+  width: 110%;
+ 
+}
+th{
+  border: 5px solid yellowgreen;
+  padding: 5px;
+}
+table{
+  font-size: 13px;
+}
+td{
+  padding-right: 10px;
+  text-align: center;
+  background-color: rgb(97, 58, 99);
+}
+th{
+  padding-right: 10px;
+  text-align: center;
+
+}
+h6{
+  margin-right: 80px;
+}
+#contactes{
+  padding-right: 80px;
+}
+#contactes{
+  display: none;
+}
+
 
 }
