@@ -13,14 +13,44 @@
         <meta name="robots" content="index, follow">
         
     
-<link href="../Styles/assets/css/Contact/structure.css" rel="stylesheet">
-<link href="../Styles/assets/css/Contact/form.css" rel="stylesheet">
+
 
 <!-- JavaScript -->
 <script src="scripts/wufoo.js"></script>
         <title>Dessai Kibeho</title>
+        <style>
+            .form-control {
+              
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+.btn-primary {
+    color: #fff;
+    background-color:#301934;
+    border-color: #301934;
+    
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color:#0b060c;
+    border-color: #301934;
+    font-weight: bold;
+    
+}
+        </style>
 </head>
-<body>
+<body >
     <header >
 
         <nav class="navBar">
@@ -67,103 +97,43 @@
 
 <div id="container" class="ltr">
 
-    <h1>
     
-    </h1>
     
       
-    <form
-      id="form1"
-      name="form1"
-      class="wufoo  page"
-      accept-charset="UTF-8"
-      autocomplete="off"
-      enctype="multipart/form-data"
-      method="post"
-      novalidate
-          action="https://kdessaik.wufoo.com/forms/z1k1qs1y0hu35j5/#public"
-      >
-    <ul>
-    <li id="foli4" class="notranslate      ">
-    <label class="desc" id="title4">
-    Name
-    </label>
-    <span>
-    <input id="Field4" name="Field4" type="text" class="field text fn" value="" size="8" tabindex="0" placeholder=""       />
-    <label for="Field4">Names</label>
-    </span>
-    <span>
-    <input id="Field5" name="Field5" type="text" class="field text ln" value="" size="14" tabindex="0" placeholder="" />
-    <label for="Field5">Last</label>
-    </span>
-    </li>
-    <li id="foli2" class="notranslate      ">
-    <label class="desc" id="title2" for="Field2">
-    Email Address
-    </label>
-    <div>
-    <input id="Field2" name="Field2" type="email" spellcheck="false" class="field text large" value="" maxlength="255" tabindex="0"       placeholder="" />
-    </div>
-    <p class="instruct" id="instruct2">
-    <small>We won't share this with strangers.</small>
-    </p>
-    </li>
-    <li id="foli1"
-    class="notranslate      "><label class="desc" id="title1" for="Field1">
-    Message
-    <span id="req_1" class="req">*</span>
-    </label>
-    
-    <div>
-    <textarea id="Field1"
-    name="Field1"
-    class="field textarea medium"
-    spellcheck="true"
-    rows="10" cols="50"
-    tabindex="0"
-    onkeyup=""
-    placeholder=""
-    required  ></textarea>
-    
-    </div>
-    
-    <p class="instruct" id="instruct1">
-    <small>This field is required.</small>
-    </p></li> 
-    
-    <li class="buttons ">
-    <div>
-        
-                            <input id="saveForm" name="saveForm" class="btTxt submit"
-        type="submit" value="Submit"
-     />    
-    <a href="https://master.wufoo.com/forms/m7p0x3/def/field1=kdessaik.wufoo.com/forms/contact-form/"
-    target="_blank"
-    style="font-size:85% !important;visibility:visible !important;display:inline !important;
-    background:none !important;border:none !important;color:blue !important;
-    text-indent:0 !important;text-decoration:underline !important;position:static;
-    margin:0 !important;padding:0 !important;overflow:none !important
-    width:auto !important;height:auto !important;"></a>
-    </div>
-    </li>
-    
-    <li class="hide">
-    <label for="comment">Do Not Fill This Out</label>
-    <textarea name="comment" id="comment" rows="1" cols="1"></textarea>
-    <input type="hidden" id="idstamp" name="idstamp" value="8RH/ls3l3cVZw4BYU9omEShQcvz8CxcqRhQRIhIMIRI=" >
-    <input type="hidden" id="encryptedPassword" name="encryptedPassword" value="" >
-    </li>
-    </ul>
-    </form>
+    <form 
+    method="POST" id="fs-frm" name="survey-form" accept-charset="utf-8" action="https://formspree.io/f/xeqyvbng" >
+       
+        <div class="row">
+            <div class="col">
+              <input type="text"   name="name" id="full-name"  class="form-control" placeholder="First and Last name" required="">
+            </div>
+            
+          </div><br>
+          <div class="form-group row">
+            
+            <div class="col-sm-10">
+              <input type="email"  name="email" class="form-control" id="inputEmail3" placeholder="Email">
+            </div>
+          </div>
+        <fieldset class="form-group">
+          
+        </fieldset>
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">Message
+            </label>
+            <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+        <div class="form-group row">
+          <div class="col-sm-10">
+           <input type="submit"  class="btn btn-primary" value="Send Responses">
+          </div>
+        </div>
+      </form>
      
     
     </div><!--container-->
     
-    <a class="powertiny" href="https://kibehodessai.netlify.app/" title="Powered by Wufoo"
-    style="display:block !important;visibility:visible !important;text-indent:0 !important;position:relative !important;height:auto !important;width:95px !important;overflow:visible !important;text-decoration:none;cursor:pointer !important;margin:0 auto !important">
-    <span style="background:url(./images/powerlogo.png) no-repeat center 7px; margin:0 auto;display:inline-block !important;visibility:visible !important;text-indent:-9000px !important;position:static !important;overflow: auto !important;width:62px !important;height:30px !important">Wufoo</span>
-    <b style="display:block !important;visibility:visible !important;text-indent:0 !important;position:static !important;height:auto !important;width:auto !important;overflow: auto !important;font-weight:normal;font-size:9px;color:#777;padding:0 0 0 3px;">Designed</b>
-    </a>
+    
 
     
     </main>

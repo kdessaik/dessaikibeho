@@ -110,6 +110,8 @@ font-weight: bold;
     position:absolute;
     z-index: 1;
 }
+
+
 .logoSocial{
     width: 2%;
     background-color: transparent;
@@ -349,7 +351,13 @@ th{
 .ulPhone1{
   display: none;
 }
+.ulPhone{
+  position: relative;
+  left: -10%;
 }
+
+}
+
 
 
 

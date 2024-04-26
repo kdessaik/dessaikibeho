@@ -6,6 +6,7 @@ body
 {
     background-color:rgb(171, 171, 171);
     font-family: sans-serif;
+    
 }
 .contact-box
 {
@@ -81,3 +82,20 @@ form.wufoo {
     padding: 0px;
     position: relative;
 }
+input[type="email" i] {
+    width: 120%;
+    padding-block: 1px;
+    padding-inline: 2px;
+}
+#fs-frm{
+    width: 50%;
+    align-items: center;
+}
+.ltr>form{
+    margin-left: 25%;
+}
+@media only screen and  (min-width: 10px) and (max-width: 900px){
+    .ltr>form{
+        margin-left: 15%;
+    }
+  }
