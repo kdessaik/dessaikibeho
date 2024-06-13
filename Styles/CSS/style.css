@@ -355,6 +355,17 @@ th{
   position: relative;
   left: -10%;
 }
+.section2{
+  max-width:110%;
+}
+.section2>.div2{
+ position: relative;
+ left: 10%;
+
+}
+.section2>.div1{
+  width: 110%;
+}
 
 }
 
